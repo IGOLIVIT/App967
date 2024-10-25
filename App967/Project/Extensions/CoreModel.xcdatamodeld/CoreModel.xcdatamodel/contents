@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22758" systemVersion="23B74" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="StatModel" representedClassName="StatModel" syncable="YES" codeGenerationType="class">
+        <attribute name="stComFM" optional="YES" attributeType="String"/>
+        <attribute name="stComFW" optional="YES" attributeType="String"/>
+        <attribute name="stLikesFM" optional="YES" attributeType="String"/>
+        <attribute name="stLikesFW" optional="YES" attributeType="String"/>
+        <attribute name="stMDisp" optional="YES" attributeType="String"/>
+        <attribute name="stSocName" optional="YES" attributeType="String"/>
+        <attribute name="stSubFM" optional="YES" attributeType="String"/>
+        <attribute name="stSubFW" optional="YES" attributeType="String"/>
+        <attribute name="stTotSub" optional="YES" attributeType="String"/>
+        <attribute name="stWDisp" optional="YES" attributeType="String"/>
+        <attribute name="stYAct" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TaskModel" representedClassName="TaskModel" syncable="YES" codeGenerationType="class">
+        <attribute name="taDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="taDescr" optional="YES" attributeType="String"/>
+        <attribute name="taName" optional="YES" attributeType="String"/>
+        <attribute name="taNet" optional="YES" attributeType="String"/>
+        <attribute name="taTime" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+</model>
